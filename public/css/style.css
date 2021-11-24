@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+  font-family: Poppins;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat repeat;
+  background-size: 100%;
+}
+
+.logo {
+  text-align: center;
+  color: white;
+}
+.logo h1 {
+  font-size: xx-large;
+}
+.logo p {
+  margin-top: -30px;
+  font-size: small;
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=style.css.map */
