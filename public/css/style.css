@@ -9,14 +9,162 @@ body {
 .logo {
   text-align: center;
   color: white;
+  margin: 5% auto;
 }
 .logo h1 {
   font-size: xx-large;
 }
 .logo p {
   margin-top: -30px;
-  font-size: small;
+  font-size: x-small;
   opacity: 0.5;
+}
+
+.container {
+  color: #cecfd2;
+  width: 80%;
+  margin: 0px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+.container #intro {
+  margin: 0px;
+}
+.container #intro img {
+  width: 100%;
+}
+.container #intro h2 {
+  color: black;
+}
+.container #intro div div:first-of-type {
+  padding: 5%;
+  text-align: center;
+  background-color: white;
+}
+.container #intro div div:first-of-type hr {
+  width: 100px;
+  opacity: 0.6;
+}
+.container #intro div div:first-of-type p {
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: 100;
+  letter-spacing: 1.8px;
+}
+.container #intro div div:nth-of-type(2) {
+  padding: 8%;
+  background-color: #f9f8f6;
+}
+.container #tableau {
+  background-color: #1e1f23;
+  padding: 5%;
+}
+.container #tableau div {
+  width: 98%;
+  margin: auto;
+}
+.container #tableau div #blackTitle {
+  padding: 2% 0%;
+  background-color: black;
+  text-align: center;
+}
+.container #tableau div #blackTitle p {
+  color: #414247;
+  font-size: small;
+}
+.container #tableau div #tablequad {
+  display: grid;
+}
+.container #tableau div #tablequad img {
+  width: 100%;
+}
+.container #tableau div #tablequad img:first-of-type {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.container #tableau div #tablequad img:nth-of-type(2) {
+  grid-column: 2/2;
+  grid-row: 1/3;
+}
+.container #tableau div #tablequad img:nth-of-type(3) {
+  grid-column: 1/2;
+  grid-row: 2/2;
+}
+.container #tableau div #tablequad img:last-of-type {
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+.container #grid {
+  display: grid;
+}
+.container #grid img {
+  width: 100%;
+  height: 100%;
+}
+.container #grid div:first-of-type {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.container #grid div:nth-of-type(2) {
+  grid-column: 2/2;
+  grid-row: 1/2;
+  background-color: white;
+}
+.container #grid div:nth-of-type(2) .gridtext1 {
+  margin: 20% 15%;
+}
+.container #grid div:nth-of-type(2) h3 {
+  color: black;
+}
+.container #grid div:nth-of-type(3) {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 100%;
+  height: 100%;
+  background-color: #1e1f23;
+}
+.container #grid div:nth-of-type(3) .gridtext2 {
+  text-justify: flex-end;
+  margin: 20% 15%;
+}
+.container #grid div:nth-of-type(3) h3 {
+  color: black;
+}
+.container #grid div:nth-of-type(4) {
+  grid-column: 2/2;
+  grid-row: 2/3;
+}
+.container #grid div:nth-of-type(5) {
+  grid-column: 1/2;
+  grid-row: 3/3;
+}
+.container #grid div:last-of-type {
+  grid-column: 2/2;
+  grid-row: 3/3;
+  background-color: white;
+}
+.container #grid div:last-of-type .gridtext1 {
+  margin: 20% 15%;
+}
+.container #grid div:last-of-type h3 {
+  color: black;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  opacity: 0.6;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  margin: 1%;
+}
+footer p {
+  font-size: xx-small;
+  font-weight: 100;
 }
 
 /*# sourceMappingURL=style.css.map */
